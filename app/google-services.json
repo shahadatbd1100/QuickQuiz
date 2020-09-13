@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "808113331042",
+    "firebase_url": "https://ecommerce-f0f9f.firebaseio.com",
+    "project_id": "ecommerce-f0f9f",
+    "storage_bucket": "ecommerce-f0f9f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:808113331042:android:f89df7d065da4b1a496a3b",
+        "android_client_info": {
+          "package_name": "com.example.ecommerce"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "808113331042-l44t7mv2vm6qcq100858pkj73s51bbvl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAT2CnLFhSZxWytT6ERUcvD4UtlgzvGJQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "808113331042-l44t7mv2vm6qcq100858pkj73s51bbvl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:808113331042:android:f842bafed9f5c5c6496a3b",
+        "android_client_info": {
+          "package_name": "com.example.quickquiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "808113331042-l44t7mv2vm6qcq100858pkj73s51bbvl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAT2CnLFhSZxWytT6ERUcvD4UtlgzvGJQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "808113331042-l44t7mv2vm6qcq100858pkj73s51bbvl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

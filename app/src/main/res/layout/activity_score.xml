@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ScoreActivity">
+
+    <LinearLayout
+        android:id="@+id/linearContainer"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:layout_marginTop="20dp"
+            android:textSize="16sp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:text="@string/app_name" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/pass_lottie"
+            android:background="@android:color/transparent"
+            android:layout_gravity="center"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/first_place"
+            />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/failed_lottie"
+            android:background="@android:color/transparent"
+            android:layout_gravity="center"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/failed"
+            android:visibility="gone"
+            />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="24dp"
+            android:textSize="38sp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:text="Your Score" />
+
+
+
+        <TextView
+            android:id="@+id/score_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:text="-" />
+
+        <TextView
+            android:id="@+id/total_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="24dp"
+            android:textSize="38sp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:text="OUT OF -" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <Button
+            android:id="@+id/done_btn"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Done"
+            android:textColor="@android:color/white"
+            android:layout_gravity="center"
+            android:background="@drawable/rounded_corners"/>
+
+    </FrameLayout>
+
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="@string/banner_id">
+    </com.google.android.gms.ads.AdView>
+
+
+</LinearLayout>
